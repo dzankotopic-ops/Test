@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "GC=F",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-02",
+  "status": "triggered",
+  "time": "11:35 AM",
+  "bar_start": "11:30",
+  "bar_index": 24,
+  "price": 3978.3,
+  "level": 3976.0,
+  "interval": "5m",
+  "opening_range": {
+    "high": 3976.0,
+    "low": 3956.8,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-02T21:00:03Z",
+  "reason": "the 11:30 bar closed above the range high"
+}
