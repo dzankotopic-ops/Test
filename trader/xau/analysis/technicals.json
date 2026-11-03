@@ -1,0 +1,33 @@
+{
+ "last_close_day": "2026-11-03",
+ "last": 3915.7,
+ "sma20": 4094.6,
+ "sma50": 4262.58,
+ "sma100": 4237.2,
+ "sma200": 4514.82,
+ "rsi14": 33.6,
+ "rsi2": 27.7,
+ "atr14": 73.19,
+ "atr14_pct": 1.87,
+ "high_52w": 5626.8,
+ "high_52w_day": "2026-01-29",
+ "low_52w": 3879.3,
+ "low_52w_day": "2026-10-30",
+ "from_high_pct": -30.41,
+ "ret_5d_pct": -3.86,
+ "ret_20d_pct": -6.61,
+ "donchian20_high": 4242.3,
+ "donchian20_low": 3879.3,
+ "exit5_high": 4097.2,
+ "exit5_low": 3879.3,
+ "resistance": [
+  4097.2,
+  4220.4,
+  4242.3
+ ],
+ "support": [
+  3879.3
+ ],
+ "signal_donchian": -1,
+ "signal_sma_trend": 0
+}
