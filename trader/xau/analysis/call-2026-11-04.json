@@ -1,0 +1,6 @@
+{"from": "2026-11-04 05:30", "range_from": "2026-11-04 10:10", "range_low": 4049.3, "range_high": 4058.7,
+ "long":  {"trigger": 4059.0, "stop": 4049.0, "target1": 4079.0, "target2": 4095.0},
+ "short": {"trigger": 4049.0, "stop": 4059.0, "target1": 4031.0, "target2": 4018.0},
+ "levels": [[4097.2, "Widerstand 4.097 (5-Tage-Hoch / 20-Tage-Schnitt)"], [4030.0, "Treppenstufe 4.027–4.035"], [4000.0, "4.000"]],
+ "title": "Gold 5-Minuten: Call für den 04.11. ab 12:10 Uhr – Ausbruch aus der Range entscheidet",
+ "subtitle": "Kein Trade innerhalb der Range  ·  Long nur bei 5-Min-Schluss über 4.059, Short nur bei Schluss unter 4.049  ·  Risiko je ~10 $ pro Unze  ·  kein getesteter Vorteil"}

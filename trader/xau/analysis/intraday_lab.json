@@ -1,0 +1,278 @@
+{
+ "train_days": [
+  "2026-08-26",
+  "2026-10-21"
+ ],
+ "test_days": [
+  "2026-10-22",
+  "2026-11-03"
+ ],
+ "families": {
+  "S1 Range-Ausbruch": {
+   "params": {
+    "n": 12,
+    "k": 0.6,
+    "target_r": 1.5,
+    "stop_rule": "mid",
+    "filt": false
+   },
+   "train": {
+    "trades": 41,
+    "win_rate": 0.439,
+    "avg_R": -0.01,
+    "sum_R": -0.4,
+    "usd_per_oz": -13.8,
+    "longs": 18,
+    "shorts": 23
+   },
+   "test": {
+    "trades": 18,
+    "win_rate": 0.389,
+    "avg_R": -0.169,
+    "sum_R": -3.0,
+    "usd_per_oz": -22.0,
+    "longs": 6,
+    "shorts": 12
+   },
+   "variants": 84,
+   "today": [
+    {
+     "i": 13490,
+     "time": "2026-11-04 11:40:00+01:00",
+     "day": "2026-11-04",
+     "dir": -1,
+     "entry": 4050.39990234375,
+     "stop": 4054.4000244140625,
+     "target": 4044.3997192382812,
+     "exit": 4054.4000244140625,
+     "R": -1.1499954225029754,
+     "usd": -4.6001220703125
+    }
+   ],
+   "top5_test": [
+    {
+     "params": {
+      "n": 12,
+      "k": 0.6,
+      "target_r": 1.5,
+      "stop_rule": "mid",
+      "filt": false
+     },
+     "train_avgR": -0.01,
+     "test": {
+      "trades": 18,
+      "win_rate": 0.389,
+      "avg_R": -0.169,
+      "sum_R": -3.0,
+      "usd_per_oz": -22.0,
+      "longs": 6,
+      "shorts": 12
+     }
+    },
+    {
+     "params": {
+      "n": 18,
+      "k": 0.6,
+      "target_r": 1.5,
+      "stop_rule": "range",
+      "filt": false
+     },
+     "train_avgR": -0.017,
+     "test": {
+      "trades": 3,
+      "win_rate": 0.0,
+      "avg_R": -1.064,
+      "sum_R": -3.2,
+      "usd_per_oz": -32.7,
+      "longs": 3,
+      "shorts": 0
+     }
+    },
+    {
+     "params": {
+      "n": 18,
+      "k": 1.2,
+      "target_r": 1.5,
+      "stop_rule": "mid",
+      "filt": false
+     },
+     "train_avgR": -0.023,
+     "test": {
+      "trades": 90,
+      "win_rate": 0.4,
+      "avg_R": -0.118,
+      "sum_R": -10.6,
+      "usd_per_oz": -80.4,
+      "longs": 43,
+      "shorts": 47
+     }
+    },
+    {
+     "params": {
+      "n": 18,
+      "k": 0.6,
+      "target_r": 1.0,
+      "stop_rule": "range",
+      "filt": false
+     },
+     "train_avgR": -0.056,
+     "test": {
+      "trades": 3,
+      "win_rate": 0.333,
+      "avg_R": -0.397,
+      "sum_R": -1.2,
+      "usd_per_oz": -17.9,
+      "longs": 3,
+      "shorts": 0
+     }
+    },
+    {
+     "params": {
+      "n": 24,
+      "k": 1.2,
+      "target_r": 1.0,
+      "stop_rule": "range",
+      "filt": true
+     },
+     "train_avgR": -0.062,
+     "test": {
+      "trades": 50,
+      "win_rate": 0.48,
+      "avg_R": -0.072,
+      "sum_R": -3.6,
+      "usd_per_oz": 9.4,
+      "longs": 17,
+      "shorts": 33
+     }
+    }
+   ]
+  },
+  "S2 EMA-Pullback": {
+   "params": {
+    "target_r": 3.0,
+    "buffer_atr": 0.5,
+    "need_vwap": true
+   },
+   "train": {
+    "trades": 71,
+    "win_rate": 0.282,
+    "avg_R": -0.098,
+    "sum_R": -6.9,
+    "usd_per_oz": -82.5,
+    "longs": 32,
+    "shorts": 39
+   },
+   "test": {
+    "trades": 14,
+    "win_rate": 0.429,
+    "avg_R": 0.491,
+    "sum_R": 6.9,
+    "usd_per_oz": 47.8,
+    "longs": 5,
+    "shorts": 9
+   },
+   "variants": 24,
+   "today": [
+    {
+     "i": 13354,
+     "time": "2026-11-04 00:20:00+01:00",
+     "day": "2026-11-04",
+     "dir": 1,
+     "entry": 3940.699951171875,
+     "stop": 3935.0858241489955,
+     "target": 3957.5423322405136,
+     "exit": 3935.0858241489955,
+     "R": -1.1068732498489595,
+     "usd": -6.214127022879529
+    }
+   ],
+   "top5_test": [
+    {
+     "params": {
+      "target_r": 3.0,
+      "buffer_atr": 0.5,
+      "need_vwap": true
+     },
+     "train_avgR": -0.098,
+     "test": {
+      "trades": 14,
+      "win_rate": 0.429,
+      "avg_R": 0.491,
+      "sum_R": 6.9,
+      "usd_per_oz": 47.8,
+      "longs": 5,
+      "shorts": 9
+     }
+    },
+    {
+     "params": {
+      "target_r": 2.0,
+      "buffer_atr": 0.0,
+      "need_vwap": true
+     },
+     "train_avgR": -0.124,
+     "test": {
+      "trades": 15,
+      "win_rate": 0.333,
+      "avg_R": -0.23,
+      "sum_R": -3.4,
+      "usd_per_oz": 8.1,
+      "longs": 6,
+      "shorts": 9
+     }
+    },
+    {
+     "params": {
+      "target_r": 1.5,
+      "buffer_atr": 0.5,
+      "need_vwap": true
+     },
+     "train_avgR": -0.125,
+     "test": {
+      "trades": 14,
+      "win_rate": 0.429,
+      "avg_R": 0.015,
+      "sum_R": 0.2,
+      "usd_per_oz": 16.4,
+      "longs": 5,
+      "shorts": 9
+     }
+    },
+    {
+     "params": {
+      "target_r": 3.0,
+      "buffer_atr": 0.0,
+      "need_vwap": true
+     },
+     "train_avgR": -0.144,
+     "test": {
+      "trades": 15,
+      "win_rate": 0.267,
+      "avg_R": -0.163,
+      "sum_R": -2.4,
+      "usd_per_oz": -5.9,
+      "longs": 6,
+      "shorts": 9
+     }
+    },
+    {
+     "params": {
+      "target_r": 2.0,
+      "buffer_atr": 0.5,
+      "need_vwap": true
+     },
+     "train_avgR": -0.169,
+     "test": {
+      "trades": 14,
+      "win_rate": 0.429,
+      "avg_R": 0.229,
+      "sum_R": 3.2,
+      "usd_per_oz": 36.9,
+      "longs": 5,
+      "shorts": 9
+     }
+    }
+   ]
+  }
+ }
+}

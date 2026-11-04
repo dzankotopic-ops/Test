@@ -1,0 +1,348 @@
+{
+ "S1 Range-Ausbruch": [
+  {
+   "params": {
+    "n": 18,
+    "k": 1.2,
+    "target_r": 1.5,
+    "stop_rule": "mid",
+    "filt": false,
+    "trend_pct": 0.5,
+    "hours": "London"
+   },
+   "train": {
+    "trades": 27,
+    "win_rate": 0.519,
+    "avg_R": 0.249,
+    "sum_R": 6.7,
+    "usd_per_oz": 59.1,
+    "longs": 12,
+    "shorts": 15
+   },
+   "test": {
+    "trades": 8,
+    "win_rate": 0.25,
+    "avg_R": -0.253,
+    "sum_R": -2.0,
+    "usd_per_oz": -12.0,
+    "longs": 1,
+    "shorts": 7
+   },
+   "today": [
+    {
+     "i": 13459,
+     "time": "2026-11-04 09:05:00+01:00",
+     "day": "2026-11-04",
+     "dir": 1,
+     "entry": 4043.89990234375,
+     "stop": 4031.300048828125,
+     "target": 4062.7996826171875,
+     "exit": 4055.5,
+     "R": 0.8730337731790967,
+     "usd": 11.00009765625
+    }
+   ]
+  },
+  {
+   "params": {
+    "n": 12,
+    "k": 1.2,
+    "target_r": 1.5,
+    "stop_rule": "mid",
+    "filt": false,
+    "trend_pct": 0.5,
+    "hours": "London"
+   },
+   "train": {
+    "trades": 36,
+    "win_rate": 0.528,
+    "avg_R": 0.233,
+    "sum_R": 8.4,
+    "usd_per_oz": 66.3,
+    "longs": 18,
+    "shorts": 18
+   },
+   "test": {
+    "trades": 10,
+    "win_rate": 0.2,
+    "avg_R": -0.426,
+    "sum_R": -4.3,
+    "usd_per_oz": -24.8,
+    "longs": 1,
+    "shorts": 9
+   },
+   "today": [
+    {
+     "i": 13459,
+     "time": "2026-11-04 09:05:00+01:00",
+     "day": "2026-11-04",
+     "dir": 1,
+     "entry": 4043.89990234375,
+     "stop": 4031.6500244140625,
+     "target": 4062.2747192382812,
+     "exit": 4055.5,
+     "R": 0.8979761038753974,
+     "usd": 11.00009765625
+    }
+   ]
+  },
+  {
+   "params": {
+    "n": 24,
+    "k": 1.2,
+    "target_r": 2.0,
+    "stop_rule": "range",
+    "filt": false,
+    "trend_pct": 0.5,
+    "hours": "London"
+   },
+   "train": {
+    "trades": 22,
+    "win_rate": 0.545,
+    "avg_R": 0.228,
+    "sum_R": 5.0,
+    "usd_per_oz": 100.1,
+    "longs": 10,
+    "shorts": 12
+   },
+   "test": {
+    "trades": 7,
+    "win_rate": 0.286,
+    "avg_R": -0.115,
+    "sum_R": -0.8,
+    "usd_per_oz": -8.7,
+    "longs": 1,
+    "shorts": 6
+   },
+   "today": [
+    {
+     "i": 13459,
+     "time": "2026-11-04 09:05:00+01:00",
+     "day": "2026-11-04",
+     "dir": 1,
+     "entry": 4043.89990234375,
+     "stop": 4010.300048828125,
+     "target": 4111.099609375,
+     "exit": 4055.5,
+     "R": 0.32738528610354223,
+     "usd": 11.00009765625
+    }
+   ]
+  },
+  {
+   "params": {
+    "n": 18,
+    "k": 0.9,
+    "target_r": 2.0,
+    "stop_rule": "mid",
+    "filt": false,
+    "trend_pct": 0.0,
+    "hours": "New York"
+   },
+   "train": {
+    "trades": 42,
+    "win_rate": 0.524,
+    "avg_R": 0.195,
+    "sum_R": 8.2,
+    "usd_per_oz": -34.7,
+    "longs": 19,
+    "shorts": 23
+   },
+   "test": {
+    "trades": 6,
+    "win_rate": 0.667,
+    "avg_R": 0.719,
+    "sum_R": 4.3,
+    "usd_per_oz": 49.0,
+    "longs": 4,
+    "shorts": 2
+   },
+   "today": []
+  },
+  {
+   "params": {
+    "n": 18,
+    "k": 1.2,
+    "target_r": 1.5,
+    "stop_rule": "range",
+    "filt": false,
+    "trend_pct": 0.5,
+    "hours": "London"
+   },
+   "train": {
+    "trades": 25,
+    "win_rate": 0.48,
+    "avg_R": 0.193,
+    "sum_R": 4.8,
+    "usd_per_oz": 100.5,
+    "longs": 11,
+    "shorts": 14
+   },
+   "test": {
+    "trades": 8,
+    "win_rate": 0.25,
+    "avg_R": -0.056,
+    "sum_R": -0.4,
+    "usd_per_oz": -2.2,
+    "longs": 1,
+    "shorts": 7
+   },
+   "today": [
+    {
+     "i": 13459,
+     "time": "2026-11-04 09:05:00+01:00",
+     "day": "2026-11-04",
+     "dir": 1,
+     "entry": 4043.89990234375,
+     "stop": 4023.300048828125,
+     "target": 4074.7996826171875,
+     "exit": 4055.5,
+     "R": 0.5339891202578902,
+     "usd": 11.00009765625
+    }
+   ]
+  }
+ ],
+ "S2 EMA-Pullback": [
+  {
+   "params": {
+    "target_r": 3.0,
+    "buffer_atr": 0.25,
+    "need_vwap": false,
+    "trend_pct": 1.0,
+    "hours": "alle"
+   },
+   "train": {
+    "trades": 20,
+    "win_rate": 0.35,
+    "avg_R": 0.178,
+    "sum_R": 3.6,
+    "usd_per_oz": 2.6,
+    "longs": 10,
+    "shorts": 10
+   },
+   "test": {
+    "trades": 1,
+    "win_rate": 1.0,
+    "avg_R": 2.946,
+    "sum_R": 2.9,
+    "usd_per_oz": 33.0,
+    "longs": 0,
+    "shorts": 1
+   },
+   "today": []
+  },
+  {
+   "params": {
+    "target_r": 3.0,
+    "buffer_atr": 0.25,
+    "need_vwap": true,
+    "trend_pct": 1.0,
+    "hours": "alle"
+   },
+   "train": {
+    "trades": 20,
+    "win_rate": 0.35,
+    "avg_R": 0.178,
+    "sum_R": 3.6,
+    "usd_per_oz": 2.6,
+    "longs": 10,
+    "shorts": 10
+   },
+   "test": {
+    "trades": 1,
+    "win_rate": 1.0,
+    "avg_R": 2.946,
+    "sum_R": 2.9,
+    "usd_per_oz": 33.0,
+    "longs": 0,
+    "shorts": 1
+   },
+   "today": []
+  },
+  {
+   "params": {
+    "target_r": 3.0,
+    "buffer_atr": 0.5,
+    "need_vwap": false,
+    "trend_pct": 1.0,
+    "hours": "alle"
+   },
+   "train": {
+    "trades": 20,
+    "win_rate": 0.35,
+    "avg_R": 0.098,
+    "sum_R": 2.0,
+    "usd_per_oz": -8.6,
+    "longs": 10,
+    "shorts": 10
+   },
+   "test": {
+    "trades": 1,
+    "win_rate": 1.0,
+    "avg_R": 2.953,
+    "sum_R": 3.0,
+    "usd_per_oz": 37.6,
+    "longs": 0,
+    "shorts": 1
+   },
+   "today": []
+  },
+  {
+   "params": {
+    "target_r": 3.0,
+    "buffer_atr": 0.5,
+    "need_vwap": true,
+    "trend_pct": 1.0,
+    "hours": "alle"
+   },
+   "train": {
+    "trades": 20,
+    "win_rate": 0.35,
+    "avg_R": 0.098,
+    "sum_R": 2.0,
+    "usd_per_oz": -8.6,
+    "longs": 10,
+    "shorts": 10
+   },
+   "test": {
+    "trades": 1,
+    "win_rate": 1.0,
+    "avg_R": 2.953,
+    "sum_R": 3.0,
+    "usd_per_oz": 37.6,
+    "longs": 0,
+    "shorts": 1
+   },
+   "today": []
+  },
+  {
+   "params": {
+    "target_r": 2.0,
+    "buffer_atr": 0.5,
+    "need_vwap": false,
+    "trend_pct": 1.0,
+    "hours": "alle"
+   },
+   "train": {
+    "trades": 20,
+    "win_rate": 0.4,
+    "avg_R": 0.043,
+    "sum_R": 0.9,
+    "usd_per_oz": -14.0,
+    "longs": 10,
+    "shorts": 10
+   },
+   "test": {
+    "trades": 1,
+    "win_rate": 1.0,
+    "avg_R": 1.953,
+    "sum_R": 2.0,
+    "usd_per_oz": 24.9,
+    "longs": 0,
+    "shorts": 1
+   },
+   "today": []
+  }
+ ]
+}
