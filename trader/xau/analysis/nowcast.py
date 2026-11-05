@@ -3,7 +3,7 @@
 A  time-of-day bootstrap, 60 days, drift removed          (pure randomness, no opinion)
 B  time-of-day bootstrap, 60 days, drift kept             (the recent trend continues)
 C  EWMA volatility, Student-t tails, no drift              (current volatility level)
-D  analog days: real 5-min sequences from the same clock time on past days that were also down on the day
+D  analog days: real 5-min sequences from the same clock time on past days that moved the same way as today so far
 Usage: python3 nowcast.py GC-60d5m-full.json GC-2y1h.json PRICE "YYYY-MM-DD HH:MM" (Berlin time of PRICE) out.json
 """
 import json, sys, zoneinfo
@@ -19,8 +19,11 @@ b = b[b.gap <= pd.Timedelta(minutes=70)]                        # inside a sessi
 b["day"] = (b.index + pd.Timedelta(hours=6)).date; b["slot"] = b.index.hour * 12 + b.index.minute // 5
 today = b.day.iloc[-1]; hist = b[b.day != today]
 start = at.tz_convert(NY).floor("5min")
-horizons = {"in 1 Stunde": start + pd.Timedelta(hours=1), "heute 22:00 Uhr": pd.Timestamp("2026-11-03 16:00", tz=NY),
-            "morgen 22:00 Uhr": pd.Timestamp("2026-11-04 16:00", tz=NY), "Freitag 22:00 Uhr": pd.Timestamp("2026-11-06 16:00", tz=NY)}
+def close_on(n):                                                  # 16:00 New York, n weekdays after today
+    day = start.normalize(); k = 0
+    while k < n: day += pd.Timedelta(days=1); k += day.weekday() < 5
+    return day.replace(hour=16, minute=0)
+horizons = {"in 1 Stunde": start + pd.Timedelta(hours=1), "heute 22:00 Uhr": close_on(0), "morgen 22:00 Uhr": close_on(1)}
 slots_ok = set(hist.slot.value_counts()[lambda s: s > s.max() * 0.5].index)
 steps = [t for t in pd.date_range(start + pd.Timedelta(minutes=5), max(horizons.values()), freq="5min")
          if t.weekday() < 5 and (t.hour * 12 + t.minute // 5) in slots_ok]
@@ -47,11 +50,11 @@ for i, d in enumerate(days[1:], 1):
     if start.hour >= 18: t0 -= pd.Timedelta(days=1)
     if t0 not in pos_by_time: continue
     k = pos_by_time[t0]; mv = hist.c.iloc[k] / prev_close[days[i - 1]] - 1
-    if mv < 0 and k + len(steps) < len(rr): seqs.append(rr[k + 1:k + 1 + len(steps)])
+    if np.sign(mv) == np.sign(move_now) and k + len(steps) < len(rr): seqs.append(rr[k + 1:k + 1 + len(steps)])
 D = np.stack([seqs[j] for j in rng.integers(0, len(seqs), N)])
 models = {"A": A, "B": B, "C": C, "D": D}
 names = {"A": "Reiner Zufall (Schwankung der letzten 60 Tage)", "B": "Trend läuft weiter (60 Tage inkl. Abwärtsdrift)",
-         "C": "Aktuelle Volatilität mit dicken Rändern", "D": f"Ähnliche Tage (auch im Minus um diese Uhrzeit, {len(seqs)} Tage)"}
+         "C": "Aktuelle Volatilität mit dicken Rändern", "D": f"Ähnliche Tage (um diese Uhrzeit ebenfalls im {'Plus' if move_now > 0 else 'Minus'}, {len(seqs)} Tage)"}
 paths = {k: price * np.exp(np.cumsum(v, axis=1)) for k, v in models.items()}
 paths["ENS"] = np.concatenate([paths[k] for k in "ABCD"])
 res = {"price": price, "at": at.isoformat(), "move_today_pct": round(move_now * 100, 2), "seed": SEED, "names": names,

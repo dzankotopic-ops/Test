@@ -1,0 +1,339 @@
+{
+ "price": 4133.60009765625,
+ "time": "2026-11-05 11:20:00+01:00",
+ "today_high": 4155.7998046875,
+ "today_low": 4067.0,
+ "y_high": 4081.199951171875,
+ "y_low": 3928.199951171875,
+ "y_close": 4072.199951171875,
+ "rsi14_daily": 51.3,
+ "atr14_daily": 81.7,
+ "rsi14_5m": 46.8,
+ "rsi14_1h": 69.6,
+ "zones": [
+  {
+   "lo": 3989.1,
+   "hi": 3989.1,
+   "items": [
+    {
+     "price": 3989.1,
+     "name": "Swing-Tief 23.10.",
+     "kind": "Swing",
+     "turns": 5
+    }
+   ],
+   "score": 1.5,
+   "side": "Unterst\u00fctzung"
+  },
+  {
+   "lo": 4000.0,
+   "hi": 4000.0,
+   "items": [
+    {
+     "price": 4000.0,
+     "name": "Rundes Niveau 4000",
+     "kind": "rund",
+     "turns": 11
+    }
+   ],
+   "score": 2.1,
+   "side": "Unterst\u00fctzung"
+  },
+  {
+   "lo": 4027.5,
+   "hi": 4042.5,
+   "items": [
+    {
+     "price": 4027.5,
+     "name": "Volumen-Knoten (4.2 % des Volumens)",
+     "kind": "Volumen",
+     "turns": 49
+    },
+    {
+     "price": 4032.5,
+     "name": "Volumen-Knoten (5.1 % des Volumens)",
+     "kind": "Volumen",
+     "turns": 42
+    },
+    {
+     "price": 4037.5,
+     "name": "Volumen-Knoten (5.9 % des Volumens)",
+     "kind": "Volumen",
+     "turns": 39
+    },
+    {
+     "price": 4042.5,
+     "name": "Volumen-Knoten (4.8 % des Volumens)",
+     "kind": "Volumen",
+     "turns": 28
+    }
+   ],
+   "score": 12.9,
+   "side": "Unterst\u00fctzung"
+  },
+  {
+   "lo": 4050.0,
+   "hi": 4052.5,
+   "items": [
+    {
+     "price": 4050.0,
+     "name": "Rundes Niveau 4050",
+     "kind": "rund",
+     "turns": 37
+    },
+    {
+     "price": 4052.5,
+     "name": "Volumen-Knoten (5.7 % des Volumens)",
+     "kind": "Volumen",
+     "turns": 22
+    }
+   ],
+   "score": 6.7,
+   "side": "Unterst\u00fctzung"
+  },
+  {
+   "lo": 4067.0,
+   "hi": 4072.5,
+   "items": [
+    {
+     "price": 4067.0,
+     "name": "Tief heute",
+     "kind": "heute",
+     "turns": 17
+    },
+    {
+     "price": 4072.2,
+     "name": "Schluss gestern",
+     "kind": "Tag",
+     "turns": 34
+    },
+    {
+     "price": 4072.5,
+     "name": "Volumen-Knoten (4.6 % des Volumens)",
+     "kind": "Volumen",
+     "turns": 33
+    }
+   ],
+   "score": 8.4,
+   "side": "Unterst\u00fctzung"
+  },
+  {
+   "lo": 4081.2,
+   "hi": 4081.2,
+   "items": [
+    {
+     "price": 4081.2,
+     "name": "Hoch gestern",
+     "kind": "Tag",
+     "turns": 15
+    }
+   ],
+   "score": 3.5,
+   "side": "Unterst\u00fctzung"
+  },
+  {
+   "lo": 4091.2,
+   "hi": 4100.0,
+   "items": [
+    {
+     "price": 4091.2,
+     "name": "Swing-Tief 07.10.",
+     "kind": "Swing",
+     "turns": 3
+    },
+    {
+     "price": 4091.4,
+     "name": "20-Tage-Durchschnitt",
+     "kind": "Durchschnitt",
+     "turns": 3
+    },
+    {
+     "price": 4095.0,
+     "name": "Swing-Tief 14.10.",
+     "kind": "Swing",
+     "turns": 6
+    },
+    {
+     "price": 4097.2,
+     "name": "Swing-Hoch 28.10.",
+     "kind": "Swing",
+     "turns": 6
+    },
+    {
+     "price": 4100.0,
+     "name": "Rundes Niveau 4100",
+     "kind": "rund",
+     "turns": 8
+    }
+   ],
+   "score": 6.8,
+   "side": "Unterst\u00fctzung"
+  },
+  {
+   "lo": 4118.0,
+   "hi": 4118.0,
+   "items": [
+    {
+     "price": 4118.0,
+     "name": "R\u00fccksetzer-Tief heute",
+     "kind": "heute",
+     "turns": 10
+    }
+   ],
+   "score": 2.0,
+   "side": "Unterst\u00fctzung"
+  },
+  {
+   "lo": 4125.9,
+   "hi": 4125.9,
+   "items": [
+    {
+     "price": 4125.9,
+     "name": "VWAP heute",
+     "kind": "Tag",
+     "turns": 16
+    }
+   ],
+   "score": 3.6,
+   "side": "Unterst\u00fctzung"
+  },
+  {
+   "lo": 4143.1,
+   "hi": 4143.1,
+   "items": [
+    {
+     "price": 4143.1,
+     "name": "Swing-Tief 28.09.",
+     "kind": "Swing",
+     "turns": 50
+    }
+   ],
+   "score": 6.0,
+   "side": "Widerstand"
+  },
+  {
+   "lo": 4150.0,
+   "hi": 4155.8,
+   "items": [
+    {
+     "price": 4150.0,
+     "name": "Rundes Niveau 4150",
+     "kind": "rund",
+     "turns": 40
+    },
+    {
+     "price": 4155.8,
+     "name": "Hoch heute",
+     "kind": "heute",
+     "turns": 68
+    }
+   ],
+   "score": 8.8,
+   "side": "Widerstand"
+  },
+  {
+   "lo": 4200.0,
+   "hi": 4200.0,
+   "items": [
+    {
+     "price": 4200.0,
+     "name": "Rundes Niveau 4200",
+     "kind": "rund",
+     "turns": 61
+    }
+   ],
+   "score": 7.1,
+   "side": "Widerstand"
+  },
+  {
+   "lo": 4220.4,
+   "hi": 4220.4,
+   "items": [
+    {
+     "price": 4220.4,
+     "name": "Swing-Hoch 16.10.",
+     "kind": "Swing",
+     "turns": 37
+    }
+   ],
+   "score": 4.7,
+   "side": "Widerstand"
+  },
+  {
+   "lo": 4233.8,
+   "hi": 4233.8,
+   "items": [
+    {
+     "price": 4233.8,
+     "name": "100-Tage-Durchschnitt",
+     "kind": "Durchschnitt",
+     "turns": 10
+    }
+   ],
+   "score": 3.0,
+   "side": "Widerstand"
+  },
+  {
+   "lo": 4239.9,
+   "hi": 4242.3,
+   "items": [
+    {
+     "price": 4239.9,
+     "name": "50-Tage-Durchschnitt",
+     "kind": "Durchschnitt",
+     "turns": 4
+    },
+    {
+     "price": 4242.3,
+     "name": "Swing-Hoch 12.10.",
+     "kind": "Swing",
+     "turns": 1
+    }
+   ],
+   "score": 3.4,
+   "side": "Widerstand"
+  },
+  {
+   "lo": 4250.0,
+   "hi": 4250.0,
+   "items": [
+    {
+     "price": 4250.0,
+     "name": "Rundes Niveau 4250",
+     "kind": "rund",
+     "turns": 4
+    }
+   ],
+   "score": 1.4,
+   "side": "Widerstand"
+  },
+  {
+   "lo": 4259.0,
+   "hi": 4259.0,
+   "items": [
+    {
+     "price": 4259.0,
+     "name": "Swing-Hoch 02.10.",
+     "kind": "Swing",
+     "turns": 2
+    }
+   ],
+   "score": 1.2,
+   "side": "Widerstand"
+  },
+  {
+   "lo": 4273.3,
+   "hi": 4273.3,
+   "items": [
+    {
+     "price": 4273.3,
+     "name": "Swing-Tief 16.09.",
+     "kind": "Swing",
+     "turns": 1
+    }
+   ],
+   "score": 1.1,
+   "side": "Widerstand"
+  }
+ ]
+}
